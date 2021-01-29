@@ -13,3 +13,7 @@ with st.beta_form(submit_label="I'm done!", key="my_form"):
   )
   swallow = st.slider('What is the airspeed velocity of an unladen swallow?',0,100)
   
+ if st.beta_form():
+  'Hooray'
+
+  
