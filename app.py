@@ -11,5 +11,5 @@ with st.beta_form(submit_label="I'm done!", key="my_form"):
       'What is your favorite color?',
       ('Blue','Green','Red','Rainbow','Other')
   )
-  swallow = st.slide('What is the airspeed velocity of an unladen swallow?,0,100)
+  swallow = st.slider('What is the airspeed velocity of an unladen swallow?',0,100)
   
